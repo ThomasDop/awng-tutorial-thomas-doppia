@@ -1,5 +1,6 @@
 from django.urls import reverse
 from django.utils import timezone, datetime
+from .models import Question, TestCase
 
 def test_was_published_recently_with_old_question(self):
     """
